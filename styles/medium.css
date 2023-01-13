@@ -1,0 +1,28 @@
+@media screen and (min-width: 32.5em) {
+    body {
+        margin: 1vw 25vw 0 25vw;
+    }
+
+    header {
+        line-height: 5vh;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header img {
+        grid-column: 1/2;
+        width: 100px;
+        margin: 10px 25px 10px 25px;
+        border: 2px solid #f7f0f5;
+        border-radius: 10px;
+    }
+    
+    header h1 {
+        grid-column: 2/6;
+    }
+}

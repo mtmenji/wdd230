@@ -1,0 +1,55 @@
+/* Imported Google Font API */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Body, Header, Main, Footer, and Img Tags */
+body {
+    font-family: "Open Sans", 'Times New Roman', serif;
+}
+
+header, footer {
+    background-color: #203F5F;
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+header h1, h2 {
+    margin: 5px 0 5px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 100vw;
+}
+
+img {
+    border: 1px solid black;
+    object-fit: cover;
+    width: 95%;
+    max-height: 95%;
+}
+
+/* Skill Sections */
+.skill {
+    background-color: rgb(214, 214, 214);
+    border: 1px solid black;
+    border-radius: 20px 20px 0 0;
+    margin: 10px 10px 10px 10px;
+}
+
+.skill h3, a, img, p {
+    margin: 10px 2.25% 10px 2.25%;
+}
+
+.skill h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.skill-header {
+    background-color: #2E5A88;
+    border-radius: 20px 20px 0 0;
+    color: white;
+}

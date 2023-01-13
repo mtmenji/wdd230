@@ -1,0 +1,11 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+main {
+    grid-template-columns: 50vw 50vw;
+}
+
+#medium-skill {
+    grid-column: 1/3;
+}
+
+}

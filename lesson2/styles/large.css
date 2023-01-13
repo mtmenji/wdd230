@@ -1,0 +1,7 @@
+@media (min-width: 1025px) {
+
+main {
+    grid-template-columns: 33vw 33vw 33vw;
+}
+
+}
