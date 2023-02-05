@@ -24,3 +24,8 @@ x.onclick = toggleMenu;
 //Last modified date and time script.
 let currentDate = document.lastModified;
 document.querySelector('#updated').textContent = currentDate;
+
+//Banner for Meeting
+if (day == "Monday" || day == "Tuesday") {
+    document.querySelector("#meeting-banner").style.display = "block";
+}
