@@ -19,7 +19,6 @@ main {
     grid-row: 3/4;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 30vh;
 }
 
 #spotlight1, #spotlight2, #spotlight3 {

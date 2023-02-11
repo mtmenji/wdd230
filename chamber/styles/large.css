@@ -103,6 +103,10 @@ main {
     align-self: center;
 }
 
+#hero img {
+    width: 100%;
+}
+
 #news {
     grid-column: 2/3;
     grid-row: 3/4;
@@ -114,7 +118,6 @@ main {
     display: flex;
     flex-direction: column;
     align-self: center;
-    height: 94vh;
 }
 
 #spotlight3 {display: block;}

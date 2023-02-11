@@ -32,12 +32,15 @@
                 </ul>
             </nav>
         </div>
-        <img src="images/logo-long.png" alt="Smithfield Chamber of Commerce Logo">
+        <img src="images/logo-long.webp" alt="Smithfield Chamber of Commerce Logo">
     </header>
     <main>
         <section id="hero">
-            <img src="images/home-hero.jpg" alt="small town" id="hero-img">
-            <h1>Welcome to Smithfield!</h1>
+            <picture>
+                <source srcset="images/home-hero550T.jpg" alt="small town" media="(max-width: 767px)" media="(max-width: 1023px)">
+                <source srcset="images/home-hero1100T.jpg" alt="small town" media="(max-width: 1023px)">
+                <img src="images/home-hero-largeT.jpg" alt="small town" id="hero-img">
+            </picture>
             <button>Join the Chamber</button>
         </section>
         <section id="event">
@@ -48,12 +51,12 @@
         <section id="weather">
             <p class="section-header">Weather</p>
             <img src="images/home-weather.png" alt="weather icon" class="icon">
-            <p id="weather-temp">33 *C</p>
+            <p id="weather-temp"><span id="degree">33</span>&#176;C</p>
             <p id="weather-forecast">Partly Cloudy</p>
             <p id="weather-speed-text">Wind Speed:</p>
-            <p id="weather-speed-number">2.5 km/h</p>
+            <p id="weather-speed-number"><span id="speed">2.5</span>km/h</p>
             <p id="weather-chill-text">Wind Chill:</p>
-            <p id="weather-chill-number">N/A</p>
+            <p id="weather-chill-number"><span id="chill">N/A</span></p>
         </section>
         <section id="news">
             <p class="section-header">News Release</p>
@@ -82,7 +85,7 @@
         </section>
     </main>
     <footer>
-        <img src="images/logo.png" alt="Smithfield Chamber of Commerce Logo">
+        <img src="images/logo.webp" alt="Smithfield Chamber of Commerce Logo">
         <div id="upper-footer">
             <p>101 Chamber Drive, Smithfield, NC 27577</p>
             <p>info@smithfieldchamber.com</p>

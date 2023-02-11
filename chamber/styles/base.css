@@ -157,14 +157,14 @@
     margin: 1vh 1vw 1vh 1vw;
     padding-right: 2vw;
     padding-left: 2vw;
-    height: 30vh;
+    /* height: 30vh; */
     text-align: center;
 }
 
 #spotlight {
     display: flex;
     flex-direction: column;
-    height: 65vh;
+    /* height: 65vh; */
 }
 
 #spotlight1, #spotlight2, #spotlight3, #event {
