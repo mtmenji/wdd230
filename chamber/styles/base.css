@@ -273,3 +273,23 @@
         width: 50%;
         border-radius: 10px;
     }
+
+
+/* Discover Page */
+#discover-main {
+    padding: 0 2vw 0 2vw;
+    text-align: center;
+}
+
+#discover-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #84A98C;
+    padding: 1vh 0 1vh 0;
+    border: 3px solid #354F52;
+}
+
+#discover-gallery img {
+    width: 90%;
+}

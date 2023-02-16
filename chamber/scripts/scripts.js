@@ -28,14 +28,18 @@ if (day == "Monday" || day == "Tuesday") {
     document.querySelector("#meeting-banner").style.display = "block";
 }
 
-//Weather
-let degree = document.querySelector("#degree").textContent;
-console.log(degree);
-let speed = document.querySelector("#speed").textContent;
-console.log(speed);
-let chill = Math.round((35.74 + (0.6215 * degree))-(35.75 * Math.pow(speed,0.16)) + (0.4275*degree*Math.pow(speed,0.16)));
-console.log(chill);
+// //Weather
+// let degree = document.querySelector("#degree").textContent;
+// console.log(degree);
+// let speed = document.querySelector("#speed").textContent;
+// console.log(speed);
+// let chill = Math.round((35.74 + (0.6215 * degree))-(35.75 * Math.pow(speed,0.16)) + (0.4275*degree*Math.pow(speed,0.16)));
+// console.log(chill);
 
-if (degree <= 50 && speed >= 3) {
-    document.querySelector("#chill").textContent = chill;
-}
+// if (degree <= 50 && speed >= 3) {
+//     document.querySelector("#chill").textContent = chill;
+// }
+
+
+
+
