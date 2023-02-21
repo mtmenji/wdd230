@@ -1,33 +1,25 @@
-table {
-    margin: 0 auto;
+table, th, td {
     text-align: center;
-    width: 50%;
     border-collapse: collapse;    
-}
-
-caption {
+    padding: 10px;
     caption-side: bottom;
-    padding-top: 1vh;
 }
 
-#table-title, #empty {
+tbody th, tbody td {
+    border: 1px solid rgb(152, 152, 152);
+}
+
+thead th {
+    background-color: rgb(70,70,70);
+    color: white;
+}
+
+thead th:nth-of-type(1) {
     background-color: black;
     color: white;
+    font-size: 1.2em;
 }
 
-#table-header {
-    background-color: gray;
-    color: white;
-}
-
-tr:nth-child(1), tr:nth-child(2) {
-    height: 50px;
-}
-
-tr:nth-child(4) {
-    background-color: lightgray;
-}
-
-th, td {
-    border: 1px solid black;
+tbody tr:nth-of-type(2) {
+    background-color: #ccc;
 }
