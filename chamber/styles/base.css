@@ -20,6 +20,8 @@
     main {
         padding-top: 1vh;
         padding-bottom: 1vh;
+        width: 95%;
+        margin: 0 auto;
     }
 
 /* Images */
@@ -292,4 +294,81 @@
 
 #discover-gallery img {
     width: 90%;
+}
+
+
+/* Join Page */
+#join-main {
+    width: 90%;
+    margin: 0 auto;
+    display: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#join-main-header {
+    text-align: center;
+}
+
+#join-main-flex-form {
+    flex: 1.5;
+}
+
+#join-main-flex-info {
+    font-size: 1.5em;
+    flex: 1;
+}
+
+label, input {
+    display: block;
+    font-size: 1.5em;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    height: 44px;
+}
+
+input[type="radio"] {
+    height: 20px;
+}
+
+form input:required {
+    border-left: red solid 6px;
+}
+
+form input:required:valid {
+    border-left: green solid 6px;
+}
+
+#radio {
+    display: grid;
+    grid-template-columns: 60px 300px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#radio label, #radio input {
+    margin: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+input[type="submit"] {
+    height: 80px;
+    width: 80%;
+    background-color: #2F3E46;
+    color: white;
+    border-radius: 10px;
 }
