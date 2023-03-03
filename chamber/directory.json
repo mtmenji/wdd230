@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Gotham's Deli",
+            "address": "224 E Market Street",
+            "phone": "919-934-9100",
+            "website": "gothamsdeli.com",
+            "image": "images/business-gothamsdeli.png",
+            "membership": "gold"
+        },
+        {
+            "name": "Cricket's Grill",
+            "address": "507 E Market Street",
+            "phone": "919-934-0938",
+            "website": "https://www.johnstoncountync.org/listing/crickets-grill/1380/",
+            "image": "images/business-crickets.jpg",
+            "membership": "silver"
+        },
+        {
+            "name": "Simple Twist",
+            "address": "227 E Market Street",
+            "phone": "919-938-0377",
+            "website": "simpletwistnc.com",
+            "image": "images/business-simpletwist.jpg",
+            "membership": "bronze"
+        },
+        {
+            "name": "The Chicken Barn",
+            "address": "703-B E Market Street",
+            "phone": "919-934-6866",
+            "website": "https://thechickenbarn.net/",
+            "image": "images/business-chickenbarn.jpg",
+            "membership": "bronze"
+        },
+        {
+            "name": "Zack's Char-Grill",
+            "address": "618-B E Market Street",
+            "phone": "919-989-9227",
+            "website": "https://www.facebook.com/ZacksCharGrill/",
+            "image": "images/business-zacks.jpg",
+            "membership": "silver"
+        },
+        {
+            "name": "C.E. Barnes Store",
+            "address": "13726 Buffalo Road, Archer Lodge",
+            "phone": "919-553-6551",
+            "website": "https://www.facebook.com/CEBarnesStore/",
+            "image": "images/business-cebarnes.jpg",
+            "membership": "silver"
+        },
+        {
+            "name": "Clayton General Store",
+            "address": "1025 Outlet Center Drive Ste. 270",
+            "phone": "919-300-1166",
+            "website": "https://www.premiumoutlets.com/outlet/carolina/stores/clayton-general-store",
+            "image": "images/business-claytongeneral.png",
+            "membership": "gold"
+        },
+        {
+            "name": "Johnson's Tire & Auto",
+            "address": "267 NC Hwy 210",
+            "phone": "919-934-2662",
+            "website": "https://www.johnsonstireandautonc.com/",
+            "image": "images/business-johnsontire.png",
+            "membership": "bronze"
+        },
+        {
+            "name": "Hills of Snow",
+            "address": "110 S Brightleaf Blvd",
+            "phone": "919-795-7461",
+            "website": "https://www.facebook.com/profile.php?id=100051498049295",
+            "image": "images/business-hillsofsnow.jpg",
+            "membership": "bronze"
+        }
+    ]
+}

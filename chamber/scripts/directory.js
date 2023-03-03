@@ -62,11 +62,3 @@ function displayTable(prophets) {
     document.querySelector('table').appendChild(tr);
   })
 }
-
-
-
-
-
-
-
-getProphetData();

@@ -35,3 +35,29 @@ img{
     height: 60%;
     box-shadow: 0px 0px 5px 5px rgb(112, 112, 112);;
 }
+
+#view {
+    text-align: center;
+    font-size: 3em;
+}
+#cards, #list {
+    border: 3px solid black;
+    padding: 0 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px 3px #ccc;
+}
+table {
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+}
+td {
+    padding: 5px;
+    display: table-cell; /*Keep block for mobile. Use display: table-cell for medium and large css*/
+}
+tr:nth-of-type(even) {
+    background-color: #ccc;
+}
+table a {
+    color: navy;
+}
