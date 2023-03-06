@@ -277,13 +277,13 @@
     }
 
 
-/* Discover Page */
-#discover-main {
+/* Discover Page and Directory Page */
+#discover-main, .cards {
     padding: 0 2vw 0 2vw;
     text-align: center;
 }
 
-#discover-gallery {
+#discover-gallery, .cards {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -292,10 +292,53 @@
     border: 3px solid #354F52;
 }
 
-#discover-gallery img {
+#discover-gallery img, .cards {
     width: 90%;
 }
 
+/* Directory Page Additional CSS */
+.cards {
+    margin: 0 auto;
+    display: none;
+}
+
+.cards section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cards section img {
+    flex: 1;
+}
+
+#view {
+    text-align: center;
+    font-size: 48px;
+    margin: 25px;
+}
+
+#view button {
+    background-color: #84A98C;
+    border: 3px outset #354F52;
+    color: #2F3E46;
+}
+
+table {
+    width: 75%;
+    margin: 50px auto;
+    font-size: 1.2em;
+}
+td {
+    padding: 5px;
+    display: block; /*Keep block for mobile. Use display: table-cell for medium and large css*/
+}
+tr:nth-of-type(even) {
+    background-color: #84A98C;
+}
+table a {
+    color: navy;
+}
 
 /* Join Page */
 #join-main {
