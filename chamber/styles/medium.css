@@ -53,6 +53,12 @@
 #join-main {
     flex-direction: row;
 }
+
+/* Directory Page */
+td{
+    display: table-cell;
+}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -61,7 +67,3 @@
 }
 }
 
-/* Directory Page */
-td{
-    display: table-cell;
-}
