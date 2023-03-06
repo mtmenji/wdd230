@@ -191,11 +191,10 @@
     grid-column: 1/3;
 }
 
-#weather img {
+#weather-icon {
     grid-column: 1/2;
     grid-row: 2/4;
     align-self: center;
-    width: 50%;
 }
 
 #weather #weather-temp {
