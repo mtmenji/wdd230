@@ -6,6 +6,7 @@ async function getBusinessData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.businesses);  // note that we reference the business array of the data object given thestructure of the json file
+    displayBusinesses(data.businesses);
     cardButton.addEventListener('click', () => {        
         displayBusinesses(data.businesses);
     });
@@ -13,6 +14,8 @@ async function getBusinessData() {
         displayTable(data.businesses);
     });
 }
+
+
 
 const displayBusinesses = (businesses) => {
     document.querySelector(".cards").innerHTML = "";

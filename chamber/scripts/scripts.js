@@ -24,7 +24,7 @@ let currentDate = document.lastModified;
 document.querySelector('#updated').textContent = currentDate;
 
 //Banner for Meeting
-if (day == "Monday" || day == "Tuesday") {
+if (day == "Monday" || day == "Tuesday" || day == "Wednesday") {
     document.querySelector("#meeting-banner").style.display = "block";
 }
 

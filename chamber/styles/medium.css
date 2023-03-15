@@ -5,18 +5,25 @@
     grid-template-columns: 2fr 1fr;
 }
 
+#meeting-banner {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
 #hero {
     grid-column: 1/3;
+    grid-row: 2/3;
+    margin: 1vh 1vw 1vh 1vw;
 }
 
 #news {
     grid-column: 1/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 #spotlight {
     grid-column: 1/3;
-    grid-row: 3/4;
+    grid-row: 4/5;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -30,17 +37,17 @@
 #join {
     grid-column: 1/3;
     display: block;
-    grid-row: 4/5;
+    grid-row: 5/6;
 }
 
 #event {
     grid-column: 1/2;
-    grid-row: 5/6;
+    grid-row: 6/7;
 }
 
 #weather {
     grid-column: 2/3;
-    grid-row: 5/6;
+    grid-row: 6/7;
 }
 
 /* Discover Page */
