@@ -1,4 +1,4 @@
-const url = 'https://json.extendsclass.com/bin/a7d6c112a9a8';
+const url = 'https://mtmenji.github.io/wdd230/chamber/directory.json';
 const cardButton = document.querySelector("#cards");
 const listButton = document.querySelector("#list");
 
