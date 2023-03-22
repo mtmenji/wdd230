@@ -1,0 +1,114 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Ubuntu:wght@300&display=swap');
+
+/* Header and Footer */
+header {
+    border-radius: 30px;
+}
+
+header, footer {
+    background-color: #344966;
+    color: #CAD2C5;
+}
+
+header a, footer a {
+    color: #CAD2C5;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5em;
+    line-height: 8vh;
+}
+
+nav a:hover{
+    font-weight: 900;
+    transform: scale(1.3);
+    transition-timing-function: ease-in-out;
+}
+
+/* Every Page */
+a:link, a:visited {
+    text-decoration: none;
+}
+
+body {
+    background-color: #CADBC0;
+    margin: 1vh 1vw 1vh 1vw;
+    text-align: center;
+    line-height: 4vh;
+}
+
+main {
+    margin: 0 3vw 0 3vw;
+}
+
+img {
+    max-width: 90%;
+    border: 10px solid #354F52;
+    
+}
+
+h1, h2 {
+    font-family: Courgette, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3, a, p {
+    font-family: Ubuntu, 'Times New Roman', Times, serif;
+}
+
+/* Home Page */
+
+
+/* Target Audience Page */
+#persona1, #persona2 {
+    background-color: #84A98C;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    margin-bottom: 2vh;
+}
+
+li {
+    text-align: left;
+}
+
+/* Design Page */
+.color-div {
+    border: 3px solid #354F52;
+    margin-bottom: 1vh;
+    background-color: #FCF5E5;
+}
+
+#primary-color {
+    background-color: #CADBC0;
+}
+
+#secondary-color {
+    background-color: #EBB3A9;
+}
+
+#accent-color1 {
+    background-color: #8E3B46;
+    color: #CADBC0;
+}
+
+#accent-color2 {
+    background-color: #547AA5;
+    color: #CADBC0;
+}
+
+#accent-color3 {
+    background-color: #344966;
+    color: #CADBC0;
+}
