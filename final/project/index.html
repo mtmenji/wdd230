@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="https://kit.fontawesome.com/a32455dc80.js" crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Bountiful Foods Logo">
+        <h1>Bountiful Foods</h1>
+        <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home--main">
+        <section class="home--section" id="home--call-to-action">
+            <h2>Create a Smoothie!</h2>
+            <p>We have an excellent variety of locally-sourced fruits that you can use to create a personalized smoothie with your favorite ingredients. Why not explore our selection today, and see what delicious smoothie creations you can come up with?</p>
+            <a href="fresh.html"><button>Smoothie Time!</button></a>
+        </section>
+        <section class="home--section" id="home--info-card">
+            <h2>Your History</h2>
+            <p>Drinks created: <span id="home--info-card-drinks"></span></p>
+            <button id="home--info-card-drinks-reset">Clear History</button>
+        </section>
+        <section class="home--section" id="home--location-info">
+            <h2>We Love Carlsbad, CS!</h2>
+            <p>Welcome to Carlsbad, California - a beautiful coastal city known for its stunning beaches, world-class golf courses, and charming small-town vibe. Whether you're here for a relaxing vacation, a romantic getaway, or a fun-filled family adventure, Carlsbad has something for everyone. So sit back, relax, and enjoy all that this wonderful city has to offer!</p>
+        </section>
+        <section class="home--section" id="home--weather-info">
+            <h2>Weather</h2>
+            <p id="home--weather-forecast"></p>
+            <img id="home--weather-icon" src="" alt="Weather Icon"/>
+            <p id="home--weather-temp"><span id="home--weather-degree"></span></p>
+            <hr>
+            <h2>3-Day Forecast</h2>
+            <p><span id="home--weather-degreeDayOne"></span>&#176;F</p>
+            <p><span id="home--weather-degreeDayTwo"></span>&#176;F</p>
+            <p><span id="home--weather-degreeDayThree"></span>&#176;F</p>
+        </section>
+        <section class="home--section" id="home--business-info">
+            <h2>Bountiful Foods</h2>
+            <p>Address: 123 Roady Street, Carlsbad, CA</p>
+            <p>Cell: 919-919-9191</p>
+            <p>Email: support@bountifulfoods.com</p>
+            <p>Mon - Sat | 6:00a - 9:00p</p>
+        </section>
+        <section class="home--section" id="home--social-media">
+            <h2>Follow Us On Social Media</h2>
+            <section id="home--social-media-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-company">
+            <p>Bountiful Foods</p>
+            <p>Cell: 919-919-9191</p>
+            <p>Email: support@bountifulfoods.com</p>
+            <p>Mon - Sat | 6:00a - 9:00p</p>
+        </div>
+        <hr>
+        <div id="footer-creator">
+            <p>Michael Menjivar</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id="updated"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

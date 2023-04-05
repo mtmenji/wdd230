@@ -1,0 +1,67 @@
+@media only screen and (min-width: 1024px) {
+
+/* Header and Footer Tags */
+    /* Header */
+    h1 {
+        font-size: 48px;
+    }
+        /* Remove Hamburger Menu, Display Nav */
+        header button {display: none;}
+        header {grid-template-columns: .5fr 2fr 2fr;}
+        nav {grid-column: 3/4;}
+        nav ul#primaryNav {display: flex; justify-content: space-around;}
+        nav ul.open {margin-top: 0;}
+        nav ul li a {border: none; font-size: 32px;}
+        nav ul li a:hover {font-weight: 900;}
+
+
+    /* Footer */
+
+
+    
+/* Body Tags (Sections Divided by Pages) */
+    /* Home Page */
+        /* All Sections */
+        #home--main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+        .home--section {height: 450px;}
+
+        .home--section:nth-child(4) {
+            margin-bottom: 5px;
+        }
+
+        #home--main h2 {font-size: 32px;}
+        #home--main p {font-size: 20px;}
+
+        /* Call to Action Section */
+
+
+        /* Info Card Section */
+
+
+        /* Weather Info Section */
+
+
+        /* Location Section */
+
+
+        /* Business Info Section */
+
+
+        /* Social Media Section */
+
+
+
+
+
+    /* Fresh Page */
+        #home--fresh h2 {font-size: 32px;}
+        #home--fresh p {font-size: 24px;}
+
+
+    /* About Page */
+
+}

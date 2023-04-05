@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Bountiful Foods Logo">
+        <h1>Bountiful Foods</h1>
+        <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home--fresh">
+        <h2>Create a Smoothie!</h2>
+        <form id="home--fresh-form" onsubmit="formSubmission(event)">
+            <label for="name">First Name</label>
+            <input id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="name@domain.com" required>
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="xxx-xxx-xxxx" required>
+
+            <div id="home--fresh-form-select">
+                <input type="checkbox" id="fruit1" name="fruit" value="fruit1">
+                <label id="fruit1-label" for="fruit1">Fruit 1</label>
+                <input type="checkbox" id="fruit2" name="fruit" value="fruit2">
+                <label id="fruit2-label" for="fruit2">Fruit 2</label>
+                <input type="checkbox" id="fruit3" name="fruit" value="fruit3">
+                <label id="fruit3-label" for="fruit3">Fruit 3</label>
+            </div>
+
+            <label for="instructions">Special Instructions</label>
+            <input type="text" id="instructions" name="instructions">
+
+            <input id="submit-button" type="submit" value="Create Your Smoothie!">
+        </form>
+        <div id="home--fresh-form-results"></div>
+    </main>
+    <footer>
+        <div id="footer-company">
+            <p>Bountiful Foods</p>
+            <p>Cell: 919-919-9191</p>
+            <p>Email: support@bountifulfoods.com</p>
+            <p>Mon - Sat | 6:00a - 9:00p</p>
+        </div>
+        <hr>
+        <div id="footer-creator">
+            <p>Michael Menjivar</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id="updated"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
